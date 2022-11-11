@@ -1,5 +1,5 @@
 $(function(){
-    $(".galeria").slick({
+    $(".slider").slick({
         arrows: false,
         infinite: false,
         slidesToShow: 1,

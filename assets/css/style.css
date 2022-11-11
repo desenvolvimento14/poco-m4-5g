@@ -76,20 +76,25 @@
     
     .title_xiaomi-redmi-buds-09-2-1 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin: 3rem 1rem 1rem 2rem;}
 
-    .title_xiaomi-redmi-buds-10-2 {font-size: 1.5rem; color: var(--tittle); margin: 2rem 1rem 0rem 1rem; padding: 1rem 1rem 1rem 1rem;}
+    .title_xiaomi-redmi-buds-10-2 {font-size: 1.5rem; color: var(--tittle); margin: 2rem 1rem 0rem 1rem; padding: 1rem 1rem 0rem 1rem;}
     
-    .title_xiaomi-redmi-buds-10-2-1-first {font-size: 1rem; color: var(--tittle); text-align: center; margin: -5rem 1rem 5rem 0rem;}
-    .title_xiaomi-redmi-buds-10-2-1-second {font-size: 1rem; color: var(--tittle); text-align: center; margin: -5rem -1rem 5rem 0rem;}
-    .title_xiaomi-redmi-buds-10-2-1-third {font-size: 1rem; color: var(--tittle); text-align: center; margin: -5rem 1rem 5rem 0rem;}
+    .title_xiaomi-redmi-buds-10-2-1-first {font-size: 1rem; color: var(--tittle); text-align: center; padding: 0rem 0rem 0rem 0rem;}
+    .title_xiaomi-redmi-buds-10-2-1-second {font-size: 1rem; color: var(--tittle); text-align: center; padding: 0rem 0rem 0rem 0rem;}
+    .title_xiaomi-redmi-buds-10-2-1-third {font-size: 1rem; color: var(--tittle); text-align: center; padding: 0rem 0rem 0rem 0rem;}
 
     .title_xiaomi-redmi-buds-11-2 {font-size: 1.5rem; color: var(--tittle); margin: 3rem 1rem 0rem 1rem; padding: 1rem 1rem 1rem 1rem;}
     .paragraph_xiaomi-redmi-buds-11 {font-size: 1rem; color: var(--paragraph); text-align: left; margin: 1rem; padding: 0rem 1rem 0rem 1rem;}
 
-    .title_xiaomi-redmi-buds-12 {font-size: 1.2rem; color: var(--tittle); text-align: center; margin: 0rem -6rem -1rem 0rem;}
-    .title_xiaomi-redmi-buds-12-01 {font-size: 0.9rem; color: var(--tittle); text-align: center; margin: 0rem -6rem -1rem 0rem;}
+    .title_xiaomi-redmi-buds-12 {font-size: 1.2rem; color: var(--tittle); text-align: center; padding: 0rem 1rem 0rem 1rem;}
+    .title_xiaomi-redmi-buds-12-01 {font-size: 0.9rem; color: var(--tittle); text-align: center; padding: 0rem 1rem 0rem 1rem;}
 
     .title_xiaomi-redmi-buds-13-2 {font-size: 1.5rem; color: var(--tittle); margin: 3rem 1rem 0rem 1rem; padding: 1rem 1rem 1rem 1rem;}
-    .paragraph_xiaomi-redmi-buds-13 {font-size: 1rem; color: var(--paragraph); text-align: left; margin: 1rem; padding: 0rem 1rem 0rem 1rem;}
+    .paragraph_xiaomi-redmi-buds-13 {font-size: 1rem; color: var(--paragraph); text-align: left; margin: 0rem 1rem 0rem 1rem; padding: 0rem 1rem 0rem 1rem;}
+
+    .title_xiaomi-redmi-buds-14 {font-size: 1.5rem; color: var(--tittle); text-align: center; margin: 2rem 1rem 0rem 1rem; padding: 1rem 1rem 0rem 1rem;}
+
+    .notes_xiaomi-redmi-buds-15 {font-size: 1rem; line-height: 1.4rem; color: var(--tittle-gray); text-align: left; margin: 0.5rem 1rem 0rem 1rem; padding: 0rem 1rem 0rem 1rem;} 
+
 
     /*==================================================== GRID ========================================================*/
 
@@ -270,7 +275,6 @@
     }
 
     .bg_08-intern {
-
     }
 
     .bg_08-01 {
@@ -278,56 +282,62 @@
     }
 
     .bg_08-02 {
-        grid-template-columns: 1fr 1fr;
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        margin: auto;
     }
 
     .icon_08-01 {
         width: 8rem; 
         height: 5rem;
-        margin: 1rem 1rem 1rem 2rem;
+        margin: 0rem 0rem -4rem 0rem;
     }
 
     .icon_08-02 {
         width: 8rem; 
         height: 5rem;
-        margin: 1rem 0rem 1rem 3rem;
+        margin: 0rem 0rem -4rem 0rem;
     }
 
     .icon_08-03 {
         width: 8rem; 
         height: 5rem;
-        margin: 1rem 1rem 1rem 2rem;
+        margin: 6rem 0rem -4rem 0rem;
     }
 
     .bg_09 {
-        height: 66rem;
+        height: 42rem;
         background-image: url(../media/Overview_M1080_09.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
-        margin-bottom: 2rem;
-    }
-
-    .bg_09_01-text {
+        margin: 0rem 2rem 0rem 2rem;
 
     }
 
-    .bg_09_01-icons {
-        grid-template-columns: 10rem 10rem;
+    .bg_09-extension {
+        height: 22rem;
+        background-image: url(../media/Overview_M1080_09-01.png);
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 2rem 2rem 2rem;
+    }
+
+    .bg_09_01-icons-grid {
         display: grid;
-        margin-top: 22rem;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 1rem 1rem 1rem;
     }
 
     .icon_09-01 {
-        width: 4rem; 
-        height: 4rem;
-        margin: -2rem 1rem 0rem 6rem;
-    }
-
-    .bg_09-intern {
-
+        width: 3rem;
+        margin: 2rem 1rem 1rem 1rem;
     }
 
     .bg_10 {
@@ -340,21 +350,71 @@
     }
 
     .bg_11 {
-        height: 10rem;
+        height: 18rem;
         background-image: url(../media/Overview_M1080_11.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
+        margin: 4rem 0rem 1rem 2rem;
     }
 
     .bg_12 {
-        height: 10rem;
+        height: 18rem;
         background-image: url(../media/Overview_M1080_12.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        margin: 4rem 2rem 1rem 0rem;
+    }
+
+    .bg_13-01 {
+        height: 18rem;
+        background-image: url(../media/Overview_M1080_13-01.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: grid;
     }
 
+    .bg_13-02 {
+        height: 18rem;
+        background-image: url(../media/Overview_M1080_13-02.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+
+    .bg_13-03 {
+        height: 18rem;
+        background-image: url(../media/Overview_M1080_13-03.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+    }
+    
+    .bg_14 {
+        height: 26rem;
+        background-image: url(../media/Overview_M1080_14.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    .bg_14_01-icons-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 1rem 1rem 1rem;
+    }
+
+    .bg_15 {
+        margin: 4rem 0rem 0rem 0rem;
+    }
 }
