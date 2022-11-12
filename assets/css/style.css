@@ -53,26 +53,26 @@
     .title_xiaomi-redmi-buds-03-1 {font-size: 0.8rem; line-height: 1rem; color: var(--title); text-align: left; margin: 6rem 12rem 1rem 1.2rem;}
     .title_xiaomi-redmi-buds-03-2 {font-size: 0.8rem; line-height: 1rem; color: var(--title); text-align: left; margin: 3rem 1rem 1rem 1rem;}
     .title_xiaomi-redmi-buds-03-3 {font-size: 0.8rem; line-height: 1rem; color: var(--title-white); text-align: left; margin: 2rem 1rem 1rem 1rem;}
-    .title_xiaomi-redmi-buds-03-4 {font-size: 0.8rem; line-height: 1rem; color: var(--title); text-align: left; margin: 5rem 12rem 1rem 1.2rem;}
+    .title_xiaomi-redmi-buds-03-4 {font-size: 0.8rem; line-height: 1rem; color: var(--title); text-align: left; margin: 4rem 12rem 1rem 1.2rem;}
 
     .title_xiaomi-redmi-buds-04-1 {font-size: 2.5rem; color: var(--title); margin: 5rem 1rem 1rem 1rem;}
     .title_xiaomi-redmi-buds-04-2 {font-size: 1.5rem; color: var(--title); margin: 3rem 1rem 0rem 1rem; padding: 1rem 1rem 0rem 1rem;}
     .paragraph_xiaomi-redmi-buds-04 {font-size: 1rem; line-height: 1.4rem; color: var(--paragraph); text-align: left; margin: 1rem; padding: 1rem 1rem 1rem 1rem;}
 
-    .title_xiaomi-redmi-buds-05-1 {font-size: 1.2rem; color: var(--title); margin: -5rem 1rem 0rem 6rem;}
-    .paragraph_xiaomi-redmi-buds-05 {font-size: 0.8rem; color: var(--paragraph); text-align: justify; margin: 1rem 0rem 0rem 3.5rem;}
+    .title_xiaomi-redmi-buds-05-1 {font-size: 1.5rem; color: var(--title);}
+    .paragraph_xiaomi-redmi-buds-05 {font-size: 1rem; color: var(--paragraph);}
 
     .title_xiaomi-redmi-buds-06-2 {font-size: 1.5rem; color: var(--tittle-yellow); margin: 3rem 1rem 0rem 1rem; padding: 1rem 1rem 1rem 1rem;}
     .paragraph_xiaomi-redmi-buds-06 {font-size: 1rem; line-height: 1.4rem; color: var(--paragraph-white); text-align: left; margin: 1rem; padding: 0rem 1rem 0rem 1rem;}
 
-    .title_xiaomi-redmi-buds-07-1 {font-size: 1.2rem; color: var(--tittle-yellow); text-align: center; margin: -5rem 8rem 0rem 0rem;}
-    .paragraph_xiaomi-redmi-buds-07 {font-size: 1rem; color: var(--paragraph-white); text-align: center; margin: 1rem 8rem 0rem 0rem;}
+    .title_xiaomi-redmi-buds-07-1 {font-size: 1rem; color: var(--tittle-yellow); text-align: center; padding: 0rem 0rem 0rem 0rem;}
+    .paragraph_xiaomi-redmi-buds-07 {font-size: 1rem; color: var(--paragraph-white); text-align: center; padding: 0rem 0rem 0rem 0rem;}
 
     .title_xiaomi-redmi-buds-08-2 {font-size: 1.5rem; color: var(--tittle); margin: 3rem 1rem 0rem 1rem; padding: 1rem 1rem 1rem 1rem;}
-    .paragraph_xiaomi-redmi-buds-08 {font-size: 1rem; line-height: 1.4rem; color: var(--paragraph); text-align: left; margin: 1rem 1rem 3rem 1rem; padding: 0rem 1rem 0rem 1rem;}
+    .paragraph_xiaomi-redmi-buds-08 {font-size: 1rem; line-height: 1.4rem; color: var(--paragraph); text-align: left; margin: 1rem 1rem 2rem 1rem; padding: 0rem 1rem 0rem 1rem;}
 
-    .title_xiaomi-redmi-buds-08-2-1 {font-size: 1.5rem; color: var(--tittle); text-align: center; margin: -5rem 8rem 0rem 0rem;}
-    .paragraph_xiaomi-redmi-buds-08-1 {font-size: 1rem; color: var(--paragraph); text-align: center; margin: 0.5rem 8rem 0rem 0rem;}
+    .title_xiaomi-redmi-buds-08-2-1 {font-size: 1.5rem; color: var(--tittle);}
+    .paragraph_xiaomi-redmi-buds-08-1 {font-size: 1rem; color: var(--paragraph);}
     
     .title_xiaomi-redmi-buds-09-2-1 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin: 3rem 1rem 1rem 2rem;}
 
@@ -98,7 +98,7 @@
     /*==================================================== GRID ========================================================*/
 
     .grid_bg-01 {
-        margin: 1rem 0rem 0rem 1rem;
+        margin: 1rem 1rem 0rem 1rem;
     }
 
     .grid_bg_01-01 {
@@ -185,6 +185,18 @@
         display: grid;
     }
 
+    .bg_03_02 {
+        width: 19rem; 
+        height: 5rem;
+        background-image: url(../media/Overview_M1080_03-01.png);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 0rem 1rem 2rem;
+    }
+
     .icon_03-01 {
         width: 14rem; 
         height: 6rem;
@@ -192,7 +204,7 @@
     }
 
     .bg_04 {
-        height: 50rem;
+        height: 52rem;
         background-image: url(../media/Overview_M1080_04.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -201,15 +213,15 @@
     }
 
     .icon_04-01 {
-        width: 14rem; 
-        height: 6rem;
-        margin: 2rem 0rem 0rem 2rem;
+        width: 12rem; 
+        height: 5rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
 
     .icon_04-02 {
-        width: 14rem; 
-        height: 6rem;
-        margin: 2rem 0rem 0rem 2rem;
+        width: 12rem; 
+        height: 5rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
 
     .bg_04_01 {
@@ -218,6 +230,18 @@
 
     .bg_04_02 {
         margin-top: -18rem;
+    }
+
+    .bg_04_02-01 {
+        width: 19rem; 
+        height: 5rem;
+        background-image: url(../media/Overview_M1080_03-02.png);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 0rem 1rem 2rem;
     }
 
     .bg_05 {
@@ -230,17 +254,24 @@
     }
 
     .icon_05-01 {
-        width: 14rem; 
-        height: 6rem;
-        margin: 2rem 0rem 0rem 2rem;
+        width: 12rem; 
+        height: 5rem;
+        margin: 0rem 0rem -4rem 0rem;
+    }
+    
+    .grid_bg_05-01 {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 12rem 1rem 2rem;
     }
 
-    .bg_05_01 {
-       
-    }
-
-    .bg_05-02 {
+    .bg_05-01 {
         margin-top: -18rem;
+    }
+
+    .bg_05_02 {
+       
     }
 
     .bg_06 {
@@ -303,7 +334,7 @@
     .icon_08-03 {
         width: 8rem; 
         height: 5rem;
-        margin: 6rem 0rem -4rem 0rem;
+        margin: 4rem 0rem -4rem 0rem;
     }
 
     .bg_09 {
@@ -331,7 +362,7 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         text-align: center;
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 0rem 1rem 1rem 1rem;
     }
 
     .icon_09-01 {
