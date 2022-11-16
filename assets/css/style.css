@@ -71,8 +71,8 @@
     .title_xiaomi-redmi-buds-08-2 {font-size: 1.5rem; color: var(--tittle); margin: 3rem 1rem 0rem 1rem; padding: 1rem 1rem 1rem 1rem;}
     .paragraph_xiaomi-redmi-buds-08 {font-size: 1rem; line-height: 1.4rem; color: var(--paragraph); text-align: left; margin: 1rem 1rem 2rem 1rem; padding: 0rem 1rem 0rem 1rem;}
 
-    .title_xiaomi-redmi-buds-08-2-1 {font-size: 1.5rem; color: var(--tittle); margin-left: 2rem;}
-    .paragraph_xiaomi-redmi-buds-08-1 {font-size: 1rem; color: var(--paragraph);}
+    .title_xiaomi-redmi-buds-08-2-1 {font-size: 1.3rem; color: var(--tittle); text-align: center;}
+    .paragraph_xiaomi-redmi-buds-08-1 {font-size: 0.8rem; color: var(--paragraph); text-align: center;}
     
     .title_xiaomi-redmi-buds-09-2-1 {font-size: 1.5rem; color: var(--tittle); text-align: left; margin: 3rem 1rem 1rem 2rem;}
 
@@ -266,13 +266,11 @@
     
     .grid_bg_05-01 {
         display: grid;
-        align-items: flex-start;
-        text-align: left;
-        margin: 1rem 1rem 1rem 2rem;
+        max-width: 12rem;
+        margin: 0rem 1rem 0rem 2rem;
     }
 
     .grid_bg_05-01-01 {
-        margin: 0rem 0rem 0rem 2rem;
         display: flex;
         flex-direction: column;
         align-content: center;
